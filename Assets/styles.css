@@ -1,0 +1,32 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --blue: rgb(6, 1, 73);
+    --white: white;
+}
+
+header {
+    text-align: center;
+    padding: 60px;
+    background-color: var(--blue);
+    border-bottom: 5px;
+    color: var(--white);
+}
+
+body {
+
+}
+
+h1 {
+
+}
+
+footer {
+    position:static;
+
+    text-align: center;
+    background-color: var(--blue);
+    color: var(--white);
+}
