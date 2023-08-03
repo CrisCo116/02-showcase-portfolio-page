@@ -2,6 +2,9 @@ html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+    margin: 0px;
+}
 :root {
     --blue: rgb(6, 1, 73);
     --white: white;
@@ -13,11 +16,40 @@ header {
     background-color: var(--blue);
     border-bottom: 5px;
     color: var(--white);
+    border-bottom: 20px black;
+    border-radius: 0px 0px 20px 20px;
+
+}
+.About-Me {
+    border: 10px, black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    margin: 40px;
+    padding: 20px;
+    background-color: var(--blue);
+    color: var(--white); 
 }
 
-img {
-    display: flex;
+.Projects {
+    font-size: 50px;
 
+}
+
+.Projects img {
+    border-radius: 20px;
+    width: 350px;
+    height: 300px;
+}
+
+#bio div img {
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+#bio div {
+    display: flex;
+    align-items: center;
 }
 
 h2 {

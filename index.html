@@ -1,35 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Showcase Portfolio</title>
     <link rel="stylesheet" href="Assets/styles.css">
 </head>
-<header>
-    <h1><strong>Showcase Portfolio of Chris Lerwick</strong></h1>
-    <ol>
-        <ul><a href="index.html">home</a></ul>
-        <ul><a href="About-Me.html">About Me</a></ul>
-        <ul><a href="Contact-Info.html">Contact</a></ul>
-        <ul><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Projects</a></ul>
-    </ol>
-</header>
-<body>
-    <section><strong>About Me</strong>
-        
-        <p><img src="c:\Users\116cr\OneDrive\Pictures\Camera Roll\Profile Photo 2.0.jpg" alt="PFP" height="350" width="450" img="right"> I am very new to the coding world. So far I have learned HTML and advanced CSS. As of right now the biggest obsticle is remembering all the aspects of each language and being able to implent and use all the available tools effectively
-        </p>
-    </section>
-</body>
 
-<footer class="Contact-Info">
-    <h2>Contact Info</h2>
-    <ol>
-        <ul><a href="http:/slack.com/">116crisco01@gmail.com</a></ul>
-        <ul><a href="http:/https://github.com/">Github</a></ul>
-        <ul><a href="https://twitter.com/home">Twitter</a></ul>
-    </ol>
-</footer>
+<body>
+    <header id="top">
+        <h1> <strong>Showcase Portfolio of Chris Lerwick</strong></h1>
+        <ol>
+            <ul><a href="#top">Home</a></ul>
+            <ul><a href="#bio">About Me</a></ul>
+            <ul><a href="#contact-info">Contact</a></ul>
+            <ul><a href="#projects">Projects</a></ul>
+            <ul><a href="#complaints">Complaints</a></ul>
+        </ol>
+    </header>
+    <section id="bio" class="About-Me"><strong>About Me</strong>
+        <div>
+            
+            <p>I am very new to the coding world. So far I have learned HTML and advanced CSS. As of right now the biggest obsticle is remembering all the aspects of each language and being able to implent and use all the available tools effectively.
+            </p>
+            <img src="./Assets/img/profile-photo-small.jpg" alt="PFP" height="350" width="450">
+        </div>
+    </section>
+    <section id="projects" class="Projects">
+        <ol>
+            <ul>Project 1</ul>
+                <img src="./Assets/img/goat-palm.jpg" alt="goat in paml">
+            <ul>Project 2</ul>
+                <img src="./Assets/img/subi.JPG" alt="16-wrx">
+            <ul>Project 3</ul>
+                <img src="./Assets/img/beach.jpg" alt="beach">
+            <ul>Project 4</ul>
+                <img src="./Assets/img/sunrise.jpg" alt="sunrise">
+        </ol>
+
+    </section>
+    <footer id="contact-info" class="Contact-Info">
+        <h2>Contact Info</h2>
+        <ol>
+            <ul><a href="http:/slack.com/">116crisco01@gmail.com</a></ul>
+            <ul><a href="http:/https://github.com/">Github</a></ul>
+            <ul><a href="https://twitter.com/home">Twitter</a></ul>
+            <ul>
+                <form id="complaints" action="https://www.fiverr.com/?source=top_nav" method="post">
+                    <h6>Feel free to give me any complaints you may have.</h6>
+                    <input type="text" name="">
+                    <input type="submit" name="" value="Send Complaint">
+
+                </form>
+            </ul>
+        </ol>
+    </footer>
+
+</body>
 
 </html>
